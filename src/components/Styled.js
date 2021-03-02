@@ -1,6 +1,9 @@
-import React from 'react'
 import s from 'styled-components'
 
+export const StyledH1 = s.h1`
+  margin-top: 80px;
+  text-align: center;
+`
 
 export const StyledDiv = s.div`
   margin-bottom: 20px;

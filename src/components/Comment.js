@@ -1,5 +1,4 @@
-import React, { Suspense, useState } from 'react'
-import ReactDom from 'react-dom'
+import React, { useState } from 'react'
 import { ButtonDiv, StyledDiv, StyledNameInput, StyledPostInput } from './Styled.js'
 import Voter from './Voter.js'
 

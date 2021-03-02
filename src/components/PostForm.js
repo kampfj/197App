@@ -1,7 +1,4 @@
-import { post } from 'jquery'
 import React, { useState } from 'react'
-import ReactDom from 'react-dom'
-import s from 'styled-components'
 import { SpecialDiv, StyledPostDiv, StyledDiv, StyledNameInput, StyledPostInput } from './Styled.js'
 
 

@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import ReactDom from 'react-dom'
 import Title from './Title'
 import PostForm from './PostForm'
 import Comment from './Comment'
