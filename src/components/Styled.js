@@ -57,7 +57,7 @@ export const ButtonDiv = s.div`
   padding-bottom: 10px;
 `
 
-export const UpArrow = s.i`
+export const UpArrow = s.button`
   border: solid black;
   border-width: 0 3px 3px 0;
   display: inline-block;
@@ -66,7 +66,7 @@ export const UpArrow = s.i`
   -webkit-transform: rotate(-135deg);
 `
 
-export const DownArrow = s.i`
+export const DownArrow = s.button`
   border: solid black;
   border-width: 0 3px 3px 0;
   display: inline-block;
