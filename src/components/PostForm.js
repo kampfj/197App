@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import { SpecialDiv, StyledPostDiv, StyledDiv, StyledNameInput, StyledPostInput } from './Styled.js'
+import { SpecialDiv, StyledPostDiv, StyledNameInput, StyledPostInput } from './Styled.js'
 
 
-const PostForm = ({ posts, setPosts }) => { 
+const PostForm = ({ setPosts }) => { 
   const [userName, changeUserName] = useState('')
   const [userPost, changeUserPost] = useState('')
 

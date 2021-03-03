@@ -18,7 +18,16 @@
     "url": "https://github.com/kampfj/197App/issues"
   },
   "homepage": "https://github.com/kampfj/197App#readme",
+  "devDependencies": {
+    "eslint": "^7.21.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-jsx-a11y": "^6.3.0",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4 || ^3 || ^2.3.0 || ^1.7.0"
+  },
   "dependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint-config-airbnb": "^18.2.0",
     "jquery": "^3.5.1",
     "parcel-bundler": "^1.12.4",
     "react": "^17.0.1",

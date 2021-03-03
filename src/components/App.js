@@ -6,13 +6,12 @@ import { StyledDiv } from './Styled.js'
 
 const App = () => {
   const [posts, setPosts] = useState([])
-  const [reply, setReply] = useState(false)
   
   return (
     <>
       <Title/>
       <PostForm posts={posts} setPosts={setPosts}> </PostForm>
-      {posts.map(({post, userName, id, children}) => (
+      {posts.map(({post, userName, id}) => (
         <StyledDiv className="row d-flex justify-content-center" key={id}>
           <Comment posts={posts} setPosts={setPosts} post={post} userName={userName} depth={3}/>
         </StyledDiv>
